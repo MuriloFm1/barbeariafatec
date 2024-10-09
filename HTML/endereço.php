@@ -7,6 +7,15 @@
     <title>Inclusive Barbershop</title>
 </head>
 <body>
+<header>
+        <ul class="navbar">
+        <li><a href="home.php">Home</a></li>
+                <li><a href="preco.php">Preços</a></li>
+                <li><a href="agendamento.php">Agendamento</a></li>
+                <li><a href="endereço.php">Endereços</a></li>
+                <li><a href="#">Sobre nós</a></li>
+        </ul>
+    </header>
 <div class="container">
         <h1>Estamos localizados em:</h1>
         <p>Rua das Flores, Bairro Bela Vista, Número 123</p>
