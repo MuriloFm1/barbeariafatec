@@ -55,7 +55,9 @@ header ul li a
     margin-left: 40px;
     text-decoration: none;
 }
-
+header ul li:nth-child(3) {
+    margin-left: 30 px; 
+}
 .navbar a
 {
 	padding: 8px 17px;

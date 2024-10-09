@@ -55,7 +55,7 @@
                                 <img src="../IMAGENS/cabelo.png" alt="">
                                 <h3>Corte de cabelo</h3>
                                 <div class="content">
-                                    <span>R$15,00</span>
+                                    <span>R$30,00</span>
                                     <a href="#">Pague agora</a>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@
                                 <img src="../IMAGENS/barba.png" alt="">
                                 <h3>Corte de barba</h3>
                                 <div class="content">
-                                    <span>R$10,00</span>
+                                    <span>R$20,00</span>
                                     <a href="#">Pague agora</a>
                                 </div>
                             </div>

@@ -23,8 +23,3 @@ header ('location:http://localhost/barbeariafatec-main/HTML/home.php');
 }
 
 ?>
-
-
-
-
-
