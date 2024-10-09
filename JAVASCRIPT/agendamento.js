@@ -1,10 +1,18 @@
 // Inicializa o flatpickr para o campo de data
 flatpickr("#data", {
-  dateFormat: "d/m/Y",  // Formato de exibição de data (AAAA-MM-DD)
+  dateFormat: "d/m/Y",  // Formato de exibição de data (DD/MM/AAAA)
   defaultDate: "today", // Mostra o mês atual
   minDate: "today",     // Impede que o usuário selecione datas passadas
   locale: {
-      firstDayOfWeek: 1 // Define segunda-feira como o primeiro dia da semana
+      firstDayOfWeek: 1, // Define segunda-feira como o primeiro dia da semana
+      weekdays: {
+          shorthand: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'],
+          longhand: ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'],
+      },
+      months: {
+          shorthand: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
+          longhand: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+      },
   }
 });
 

@@ -12,11 +12,12 @@
     <div class="circulo"></div>
     <header>
         <a href="#"></a><img src="" class="logo"></a>
-        <ul>
-            <li><a href="home.php">Home</a></li>
-            <li><a href="preco.php">Preços</a></li>
-            <li><a href="endereço.php">Endereço</a></li>
-            <li><a href="#">Sobre nós</a></li>
+        <ul class="navbar">
+        <li><a href="home.php">Home</a></li>
+                <li><a href="preco.php">Preços</a></li>
+                <li><a href="agendamento.php">Agendamento</a></li>
+                <li><a href="endereço.php">Endereços</a></li>
+                <li><a href="#">Sobre nós</a></li>
         </ul>
     </header>
     <div class="container">
@@ -25,8 +26,8 @@
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="email" name="email" required>
 
             <label for="data">Data:</label>
             <input type="text" id="data" name="data" required>
