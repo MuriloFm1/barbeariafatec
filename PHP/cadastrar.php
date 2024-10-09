@@ -14,12 +14,12 @@ $exibir = $consulta->fetch(PDO::FETCH_ASSOC);
 if ($exibir['Email'] == $Email || $exibir['Telefone'] == $Telefone )
 {
  echo "Já existe esse cadastro";
- header ('location:http://localhost/ibm/HTML/login_cadastro.php');
+ header ('location:http://localhost/barbeariafatec-main/HTML/login_cadastro.php');
 }
 else{
     $inserir = $conn->query("insert into cliente (Email, Nome, Senha, telefone) 
 values ('$Email','$Nome','$Senha','$Telefone') "); 
-header ('location:http://localhost/ibm/HTML/home.php');
+header ('location:http://localhost/barbeariafatec-main/HTML/home.php');
 }
 
 ?>
