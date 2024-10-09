@@ -17,7 +17,6 @@
                 <li><a href="preco.php">Preços</a></li>
                 <li><a href="agendamento.php">Agendamento</a></li>
                 <li><a href="endereço.php">Endereços</a></li>
-                <li><a href="#">Sobre nós</a></li>
         </ul>
     </header>
     <div class="container">

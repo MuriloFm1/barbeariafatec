@@ -14,7 +14,7 @@ body {
 
 body:hover{
 
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -34,7 +34,6 @@ header
     width: 100%;
     padding: 20px 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 } 
 header ul
@@ -42,6 +41,7 @@ header ul
     position: relative;
     display: flex;
     margin-left: auto;
+    gap: 5px;
 }
 header ul li
 {
